@@ -71,6 +71,7 @@ h6 {
   width: 300px;
   background: #040b14;
   padding: 0 15px;
+  z-index: 2;
 }
 
 #header .profile img {
@@ -123,6 +124,8 @@ h6 {
 
 #main {
   margin-left: 300px;
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 1199px) {
